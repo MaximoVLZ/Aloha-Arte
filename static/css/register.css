@@ -57,3 +57,8 @@ body {
     font-size: 16px;
     cursor: hand;
 }
+
+span {
+    color: red;
+    font-weight: bold;
+}
