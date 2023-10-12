@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,39 +12,45 @@
     <script defer src="./static/js/register.js"></script>
     <title>Registro</title>
 </head>
+
 <body>
     <div class="wrapper">
-        <div class="content"></div>
-        <header>
-            <div class="logo">
-                Logo/Aloha-Arte
-            </div>
-            <div class="bars">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-            <nav class="nav-bar">
-                <ul>
-                    <li><a href="./index.html" class="active">Home</a></li>
-                    <li><a href="./login.html">Iniciar sesión</a></li>
-                    <li><a href="./register.html">Regístrate</a></li>
-                    <li><a href="#" >Linck 4</a></li>
-                </ul>
-            </nav>
-        </header>
-            <section class="form-register">
-                <form action="">
-                    <h4>Formulario de registro</h4>
-                    <input class="form-input" type="text" name="firstName" id="firstName" placeholder="Ingrese su nombre"/>
-                    <input class="form-input" type="text" name="lastName" id="lastName" placeholder="Ingrese su apellido"/>
-                    <input class="form-input" type="email" name="email" id="email" placeholder="Ingrese su email"/>
-                    <input class="form-input" type="password" name="password" id="password" placeholder="Ingrese su contraseña"/>
-                    <p>Estoy de acuerdo con Términos y Condiciones</p><input type="checkbox" class="checkbox">
-                    <input id="submitButton" class="form-button" type="submit" value="Crear cuenta"/>
-                </form>
-            </section>
+        <!-- Menu -->
+        <div class="content">
+            <header>
+                <div class="logo">
+                    <a class="navbar-logo" href="#">
+                        <img src="./static/img/logo-sin-fondo.png">
+                    </a>
+                </div>
+                <div class="bars">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <nav class="nav-bar">
+                    <ul>
+                        <li><a href="./index.html" class="active">Home</a></li>
+                        <li><a href="./login.html">Iniciar sesión</a></li>
+                        <li><a href="./register.html">Regístrate</a></li>
+                        <li><a href="#">Linck 4</a></li>
+                    </ul>
+                </nav>
+            </header>
         </div>
+        <section class="form-register">
+            <form action="">
+                <h4>Formulario de registro</h4>
+                <input class="form-input" type="text" name="firstName" id="firstName" placeholder="Ingrese su nombre" />
+                <input class="form-input" type="text" name="lastName" id="lastName" placeholder="Ingrese su apellido" />
+                <input class="form-input" type="email" name="email" id="email" placeholder="Ingrese su email" />
+                <input class="form-input" type="password" name="password" id="password"
+                    placeholder="Ingrese su contraseña" />
+                <p>Estoy de acuerdo con Términos y Condiciones</p><input type="checkbox" class="checkbox">
+                <input id="submitButton" class="form-button" type="submit" value="Crear cuenta" />
+            </form>
+        </section>
+    </div>
     </div>
     <footer>
         <div class="footer-left">Aloha-Arte</div>
@@ -55,4 +62,5 @@
         <div class="footer-right">@ Todos los derechos reservados</div>
     </footer>
 </body>
+
 </html>
