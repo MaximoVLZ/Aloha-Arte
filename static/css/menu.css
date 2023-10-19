@@ -45,7 +45,7 @@ header {
     background-color: #363738;
 }
 
-@media(max-width:768px) {
+@media(max-width:1024px) {
     header {
         padding: 0px 30px;
     }

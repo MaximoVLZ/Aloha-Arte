@@ -4,8 +4,8 @@
     background: #24303c;
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 250px;
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
@@ -45,6 +45,7 @@ button {
     display: grid;
     grid-gap: 30px 20px;
     grid-template-columns: repeat(4, 1fr);
+    margin-top: -50px;
 }
 
 .ajax-section .city {
@@ -85,6 +86,7 @@ button {
         grid-template-columns: 1fr;
     }
 }
+
   
   
   
