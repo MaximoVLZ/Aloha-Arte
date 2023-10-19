@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./static/css/menu.css">
-    <link rel="stylesheet" href="./static/css/login.css">
+    <link rel="stylesheet" href="./static/css/register.css">
+    <link rel="stylesheet" href="./static/css/info.css">
     <link rel="stylesheet" href="./static/css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- favicon -->
     <link rel="icon" href="./static/img/favicon.ico">
     <script defer src="./static/js/menu.js"></script>
-    <title>Login</title>
+    <script defer src="./static/js/register.js"></script>
+    <script defer src="./static/js/info.js"></script>
+    <title>Información del clima</title>
 </head>
+
 <body>
     <div class="wrapper">
         <!-- Menu -->
@@ -19,7 +24,7 @@
             <header>
                 <div class="logo">
                     <a class="navbar-logo" href="#">
-                        <img src="./static/img/logo-sin-fondo.png" >
+                        <img src="./static/img/logo-sin-fondo.png">
                     </a>
                 </div>
                 <div class="bars">
@@ -39,14 +44,23 @@
                 </nav>
             </header>
         </div>
-            <section class="form-register">
-                <h4>Iniciar sesión</h4>
-                <input class="form-input" type="email" name="email" id="email" placeholder="Ingrese su email" required/>
-                <input class="form-input" type="password" name="password" id="password" placeholder="Ingrese su contraseña" required/>
-                <input class="form-button" type="submit" value="Iniciar sesión"/>
-            </section>
-        </div>
-    </div>
+
+        <section class="top-banner">
+            <div class="container">
+                <h1 class="heading">Verificá como está en clima antes de viajar</h1>
+                <form>
+                    <input type="text" placeholder="Buscar ciudad">
+                    <button type="submit">Enviar</button>
+                    <span class="msg"></span>
+                </form>
+            </div>
+        </section>
+        <section class="ajax-section">
+            <div class="container">
+                <ul class="cities"></ul>
+            </div>
+        </section>
+
     <footer>
         <div class="footer-left">Aloha-Arte</div>
         <div class="footer-icons">
@@ -54,7 +68,5 @@
             <a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
             <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
-        <div class="footer-right">@Todos los derechos reservados</div>
+        <div class="footer-right">@ Todos los derechos reservados</div>
     </footer>
-</body>
-</html>
